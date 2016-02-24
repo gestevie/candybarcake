@@ -28,7 +28,7 @@ def calcvolumering(diameter, barheight):
 
 
 parser = argparse.ArgumentParser(description='Calculations for a candybar cake')
-parser.add_argument('-r', '-rings', help='number of levels of the take, default is 2', default=2, metavar='<n>', type=int)
+parser.add_argument('-r', '-rings', help='number of levels of the cake, default is 2', default=2, metavar='<n>', type=int)
 parser.add_argument('-bw', '-barwidth', help='width of the candy bar in mm, default is 23mm', default=23, metavar='<mm>', type=int)
 parser.add_argument('-bh', '-barheight', help='height of the candy bar in mm, default is 100mm', default=100, metavar='<mm>', type=int)
 parser.add_argument('-c', '-cake', help='diameter of the cake in cm, default is 25cm', default=25, metavar='<cm>', type=int)
